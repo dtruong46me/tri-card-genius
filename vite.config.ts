@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
       // SỬA LẠI DÒNG NÀY:
-      base: '/tri-card-genius/', // <-- Đặt lại cho đúng với đường dẫn deploy
+      base: '/tri-card-genius', // <-- Đặt lại cho đúng với đường dẫn deploy
 
       server: {
         port: 3000,
