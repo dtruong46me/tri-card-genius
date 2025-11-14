@@ -1,0 +1,5 @@
+{
+  "name": "Tri-Card Genius",
+  "description": "A flashcard application to create and study three-sided flashcards. Enhance your learning with an extra dimension for examples, mnemonics, or context. Features AI-powered content generation to help build your study decks.",
+  "requestFramePermissions": []
+}
