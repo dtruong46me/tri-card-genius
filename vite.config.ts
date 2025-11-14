@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+      // THÊM DÒNG NÀY VÀO:
+      base: '/tri-card-genius/', 
+      
       server: {
         port: 3000,
         host: '0.0.0.0',
